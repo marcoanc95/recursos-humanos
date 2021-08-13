@@ -72,7 +72,6 @@
             </field>
             <field name="report_template" ref="appraisal_period_report"/>
             <field name="report_name">${(object.name or '').replace('/','_')}</field>
-            <field name="user_signature" eval="False"/>
             <field name="auto_delete" eval="False"/>
         </record>
 
